@@ -1,0 +1,33 @@
+.app {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.editor-container {
+  display: flex;
+  gap: 20px;
+}
+
+.editor {
+  width: 50%;
+  height: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+.preview {
+  width: 50%;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
